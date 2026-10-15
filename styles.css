@@ -1,1 +1,37 @@
+@font-face {
+  font-family: 'Abduction'; 
+  src: url('assets/abduction2002.ttf') format('truetype'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+body {background-color: #170E1F;}
+h1 {font-family: 'Abduction', serif;}
+h1 {text-align: center;}
+h1 {font-size: 70px;}
+h1 {color: #798f65;}
+p {color: #E8F1E0;}
+ul {
+  list-style-type: none;
+  margin: 0;  
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42255c;
+}
 
+ul button {
+  float: left;
+  display: block;
+  color: #4c6436;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul button:hover {
+  background-color: #42255c;
+}
